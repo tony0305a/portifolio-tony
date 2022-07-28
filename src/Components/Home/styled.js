@@ -11,6 +11,13 @@ h1{
     color: white;
     font-weight:bold;
     font-size:96px;
+
+    @media screen and (max-width: 720px) {
+      font-size:56px;
+      margin-left:-60px;
+    }
+
+
 }
 span{
     color:white;

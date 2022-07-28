@@ -10,6 +10,10 @@ export const Wrapper = styled.div`
     margin-left: 150px;
     font-size: 88px;
     font-weight: bold;
+
+    @media screen and (max-width: 720px) {
+      font-size:72px;
+    }
   }
   #projetos {
     display: flex;
@@ -25,6 +29,10 @@ export const Projects = styled.div`
   span {
     color: white;
   }
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    margin-left: 120px;
+  }
 `;
 export const SingleProject = styled.div`
   display: flex;
@@ -34,6 +42,11 @@ export const SingleProject = styled.div`
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   margin: 8px;
+
+  @media screen and (max-width: 720px) {
+    width: 80%;
+  }
+
   .head {
     display: flex;
     justify-content: center;
@@ -66,7 +79,7 @@ export const SingleProject = styled.div`
   }
   .btn {
     display: flex;
-    margin:8px;
+    margin: 8px;
     justify-content: center;
     align-items: center;
     background: #1d1d1d;
@@ -90,8 +103,8 @@ export const SingleProject = styled.div`
     &:hover {
       box-shadow: inset 150px 0 0 0 #08fdd8;
       color: #000;
-      a{
-        color:black;
+      a {
+        color: black;
       }
     }
   }
