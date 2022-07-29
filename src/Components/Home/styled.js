@@ -13,8 +13,8 @@ h1{
     font-size:96px;
 
     @media screen and (max-width: 720px) {
-      font-size:56px;
-      margin-left:-60px;
+      font-size:27px;
+      margin-left:-70px;
     }
 
 
@@ -50,8 +50,20 @@ span{
     color: #000;
 }
 
+@media screen and (max-width: 720px) {
+            top:155px;
+            left:-80px;
+    }
+
 }
 .text{
     display:none;
+    
 }
+
+@media screen and (max-width: 720px) {
+      margin-top:350px;
+    }
+
+
 `;

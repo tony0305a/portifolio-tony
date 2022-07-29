@@ -12,7 +12,8 @@ export const Wrapper = styled.div`
     font-weight: bold;
 
     @media screen and (max-width: 720px) {
-      font-size:72px;
+      font-size:40px;
+      margin-left:130px;
     }
   }
   #projetos {
@@ -44,7 +45,7 @@ export const SingleProject = styled.div`
   margin: 8px;
 
   @media screen and (max-width: 720px) {
-    width: 80%;
+    width: 69%;
   }
 
   .head {
@@ -60,6 +61,10 @@ export const SingleProject = styled.div`
   }
   .show {
     padding: 8px;
+    @media screen and (max-width: 720px) {
+    padding:4;
+    height:200px;
+  }
   }
   .desc {
     display: flex;
@@ -67,9 +72,16 @@ export const SingleProject = styled.div`
     width: 100%;
     margin: 3px;
     color: white;
+    @media screen and (max-width: 720px) {
+      margin:1.5px;
+      font-size:12px;
+  }
   }
   .div-desc {
     padding: 8px;
+        @media screen and (max-width: 720px) {
+    padding:4;
+     }
   }
   .buttons {
     display: flex;

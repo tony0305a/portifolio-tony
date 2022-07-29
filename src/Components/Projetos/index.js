@@ -45,7 +45,7 @@ const Projetos = () => {
                 O site fornece informações do jogador e um gerador de gráficos
                 baseado no histórico de partidas.
               </span>
-              <span>
+              <span className="desc" >
                 As partidas são armazenadas em um banco de dados PostgreSQL por
                 uma segunda API desenvolvida por mim em Node, que além disso,
                 faz as requições com os servidores da Riot.
