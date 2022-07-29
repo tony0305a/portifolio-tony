@@ -1,17 +1,16 @@
-import Footer from "./Components/Footer";
-import Home from "./Components/Home";
+
+import { BrowserRouter as Router } from "react-router-dom";
 import Sidebar from "./Components/Sidebar";
-import * as S from "./AppStyle";
-import Projetos from "./Components/Projetos";
+import Routes from './routes'
+
 function App() {
   return (
-    <S.Wrapper>
-      <Sidebar />
-      <S.Column>
-        <Home />
-        <Projetos/>
-      </S.Column>
-    </S.Wrapper>
+    <>
+      <Router>
+        <Sidebar/>
+        <Routes/>
+      </Router>
+    </>
   );
 }
 

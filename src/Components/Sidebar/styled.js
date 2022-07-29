@@ -25,7 +25,7 @@ export const Logo = styled.div`
     color: white;
     margin: 8px;
     @media screen and (max-width: 720px) {
-      display:none;
+      display:flex;
   }
   }
 `;
