@@ -21,6 +21,10 @@ export const Wrapper = styled.div`
     width: 100%;
     margin-top: 50px;
   }
+  @media screen and (max-width: 720px) {
+      width:433px;
+      margin-left:0;
+    }
 `;
 export const Projects = styled.div`
   display: flex;
@@ -31,9 +35,9 @@ export const Projects = styled.div`
     color: white;
   }
   @media screen and (max-width: 720px) {
-    flex-direction: column;
-    margin-left: 120px;
-  }
+      width:433px;
+      margin-left:115px;
+    }
 `;
 export const SingleProject = styled.div`
   display: flex;

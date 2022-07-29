@@ -32,6 +32,7 @@ body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
     background-color:#1D1D1D;
+    overflow-x:hidden;
 }
 /**
  * Render the main element consistently in IE.

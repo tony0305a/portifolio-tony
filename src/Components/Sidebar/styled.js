@@ -8,6 +8,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   background-color: #181818;
   position: fixed;
+  @media screen and (max-width: 720px) {
+  }
 `;
 export const Logo = styled.div`
   display: flex;
@@ -22,6 +24,9 @@ export const Logo = styled.div`
     align-items: center;
     color: white;
     margin: 8px;
+    @media screen and (max-width: 720px) {
+      display:none;
+  }
   }
 `;
 export const Medias = styled.div`
@@ -31,6 +36,6 @@ justify-content:center;
 margin-top:200px;
 width:100%;
 img{
-    margin:8px;
+    margin:4px;
 }
 `;

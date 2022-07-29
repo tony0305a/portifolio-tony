@@ -63,6 +63,7 @@ span{
 
 @media screen and (max-width: 720px) {
       margin-top:350px;
+      width:433px;
     }
 
 
