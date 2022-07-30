@@ -124,4 +124,11 @@ export const SingleProject = styled.div`
       }
     }
   }
+  .btn-backend{
+    width:120px;
+    margin:8px;
+    color:white;
+    padding: 20px 30px;
+  
+  }
 `;
