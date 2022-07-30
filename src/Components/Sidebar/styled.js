@@ -3,12 +3,14 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 80px;
+  width: 115px;
   height: 2000px;
   flex-direction: column;
   background-color: #181818;
   position: fixed;
   @media screen and (max-width: 720px) {
+    width: 80px;
+
   }
 `;
 export const Logo = styled.div`
@@ -23,9 +25,15 @@ export const Logo = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
-    @media screen and (max-width: 720px) {
-      display:flex;
+    margin: 8px;
   }
+  @media screen and (max-width: 720px) {
+      span{
+        display:none;
+      }
+      img{
+        width:80px;
+      }
   }
 `;
 export const Medias = styled.div`

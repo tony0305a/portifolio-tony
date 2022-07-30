@@ -28,6 +28,8 @@ export const Wrapper = styled.div`
 `;
 export const Projects = styled.div`
   display: flex;
+  justify-content:flex-start;
+  align-items:center;
   width: 100%;
   flex-wrap: wrap;
   margin-left: 150px;
@@ -49,7 +51,7 @@ export const SingleProject = styled.div`
   margin: 4px;
 
   @media screen and (max-width: 720px) {
-    width: 80%;
+    width: 76%;
   }
 
   .head {
