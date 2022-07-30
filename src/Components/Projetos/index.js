@@ -106,16 +106,13 @@ const Projetos = () => {
               </div>
             </div>
             <div className="buttons">
-              <div>
-                <span className="btn-backend">Backend</span>
-              </div>
               <div className="btn">
                 <img src={`${imagesUrl}/git.png`} width="28" />
                 <a
                   href="https://github.com/tony0305a/dio-react-shop"
                   target="_blank"
                 >
-                  Visite
+                  Backend
                 </a>
               </div>
             </div>

@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 
     @media screen and (max-width: 720px) {
       font-size:40px;
-      margin-left:130px;
+      margin-left:88px;
     }
   }
   #projetos {
@@ -36,7 +36,7 @@ export const Projects = styled.div`
   }
   @media screen and (max-width: 720px) {
       width:433px;
-      margin-left:115px;
+      margin-left:88px;
     }
 `;
 export const SingleProject = styled.div`
@@ -49,7 +49,7 @@ export const SingleProject = styled.div`
   margin: 4px;
 
   @media screen and (max-width: 720px) {
-    width: 69%;
+    width: 80%;
   }
 
   .head {
@@ -101,7 +101,6 @@ export const SingleProject = styled.div`
     background: #1d1d1d;
     padding: 12px 17px;
     border: 3px solid #08fdd8;
-    letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #000;
     -webkit-transition: all ease 0.8s;

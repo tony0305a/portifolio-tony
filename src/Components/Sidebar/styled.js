@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 115px;
+  width: 80px;
   height: 2000px;
   flex-direction: column;
   background-color: #181818;
@@ -23,7 +23,6 @@ export const Logo = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
-    margin: 8px;
     @media screen and (max-width: 720px) {
       display:flex;
   }
