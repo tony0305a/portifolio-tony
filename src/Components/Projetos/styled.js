@@ -46,7 +46,7 @@ export const SingleProject = styled.div`
   border: 0.5px solid white;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  margin: 8px;
+  margin: 4px;
 
   @media screen and (max-width: 720px) {
     width: 69%;
