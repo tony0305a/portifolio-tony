@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import * as S from './styled'
 import ReactTextTransition, {presets} from 'react-text-transition'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     const [bemVindo,setBemVindo] = useState(" ")
@@ -37,7 +38,11 @@ const Home = () => {
         <h1>{greetings2}</h1>
         <span>{complement}</span>
         </ReactTextTransition>
-        {renderContato?(<><button id='contato' >Contato</button></>):(<></>)}
+        {renderContato?(<>
+        <Link to='/contato'>
+        <button id='contato' >Contato</button>
+        </Link>
+        </>):(<></>)}
     </S.Wrapper> 
   )
 }

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
 display:flex;
-
 flex-direction:column;
 justify-content:center;
 align-items:center;
@@ -15,6 +14,6 @@ button{
     color: white;
     padding:8px;
     border:1px solid #282828;
-    width:100%;
+    width:115px;
 }
 `;

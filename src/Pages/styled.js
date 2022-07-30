@@ -89,3 +89,25 @@ textarea{
     }
   }
 `;
+export const SobreWrapper = styled.div`
+display:flex;
+margin-left:115px;
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+
+`;
