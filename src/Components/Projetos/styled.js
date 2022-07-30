@@ -32,7 +32,7 @@ export const Projects = styled.div`
   align-items:center;
   width: 100%;
   flex-wrap: wrap;
-  margin-left: 150px;
+  margin-left: 130px;
   span {
     color: white;
   }
@@ -45,6 +45,7 @@ export const SingleProject = styled.div`
   display: flex;
   flex-direction: column;
   width: 30%;
+  height:650px;
   border: 0.5px solid white;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
