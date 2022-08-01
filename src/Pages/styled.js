@@ -126,6 +126,7 @@ margin-left:115px;
   }
 }
 #certificados{
+    margin-bottom:32px;
     img{
         width:100%;
     }

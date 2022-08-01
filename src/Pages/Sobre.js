@@ -2,6 +2,7 @@ import React from 'react'
 import * as S from './styled'
 import Carousel from 'better-react-carousel'
 import { imagesUrl } from '../imgs'
+import Footer from '../Components/Footer'
 
 
 const responsive = [  {
