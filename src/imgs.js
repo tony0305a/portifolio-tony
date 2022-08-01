@@ -1,6 +1,6 @@
 
 
-const imagesUrl = "https://portifolio-tony.vercel.app/images";
+const imagesUrl = "http://localhost:3000/images";
 
 
 export {imagesUrl}

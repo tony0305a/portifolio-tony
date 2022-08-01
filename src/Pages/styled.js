@@ -5,13 +5,30 @@ display:flex;
 flex-direction:column;
 margin-left:130px;
 width:50%;
+@media screen and (max-width: 720px) {
+    margin-left:80px;
+  }
 h1{
     color:#08FDD8;
     font-weight:bold;
     font-size:62px;
     margin-top:200px;
     width:100%;
+    @media screen and (max-width: 720px) {
+        font-size:38px;
+  }
 
+}
+#deixe{
+    color:#08FDD8;
+    font-weight:bold;
+    font-size:62px;
+    margin-top:50px;
+    margin-bottom:50px;
+    width:100%;
+    @media screen and (max-width: 720px) {
+    font-size:32px;
+  }
 }
 .cont{
     display:flex;
@@ -34,6 +51,12 @@ span{
     color:white;
     font-size:24px;
 }
+@media screen and (max-width: 720px) {
+    margin-left:0;
+    span{
+        font-size:22px;
+    }
+  }
 `;
 export const Message = styled.div`
 display:flex;
@@ -93,21 +116,51 @@ export const SobreWrapper = styled.div`
 display:flex;
 margin-left:115px;
 
-@keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+#bootcamps{
+    img{
+        width:100%;
+    }
+    @media screen and (max-width: 720px) {
+        width:100%;
+        height:250px;
+  }
+}
+#certificados{
+    img{
+        width:100%;
+    }
+    @media screen and (max-width: 720px) {
+        width:100%;
+        height:200px;
+  }
 }
 
-/* The element to apply the animation to */
-.container {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
+.m-t{
+    margin-top:30px;
+}
+.container{
+    width:100%;
+    flex-wrap:wrap;
+    margin-top:80px;
+    margin-left:16px;
+
+    h1{
+        color:#08FDD8;
+        font-weight:bold;
+        font-size:62px;
+        @media screen and (max-width: 720px) {
+         font-size:48px;
+  }
+    }
+    @media screen and (max-width: 720px) {
+    margin-left:4px;
+  }
+}
+.abt{
+    color:white;
 }
 
-
+@media screen and (max-width: 720px) {
+    margin-left:80px;
+  }
 `;

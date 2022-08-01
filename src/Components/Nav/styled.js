@@ -15,5 +15,8 @@ button{
     padding:8px;
     border:1px solid #282828;
     width:115px;
+    @media screen and (max-width: 720px) {
+    width: 80px;
+  }
 }
 `;

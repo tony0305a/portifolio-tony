@@ -128,7 +128,7 @@ const Projetos = () => {
                 O jogo consiste em pegar moedas que aparecem aleatoriamente pelo mapa.
               </span>
               <span className="desc">
-              Cada jogador possui um contador para as moedas adquiridas, também, é possui alterar o avatar e o nome.
+              Cada jogador possui um contador para as moedas adquiridas, também, é possivel alterar o avatar e o nome.
               </span>
             </div>
             <div className="buttons">
