@@ -19,13 +19,13 @@ const Home = () => {
         },2000)
         setInterval(()=>{
             setGreetings2(`Desenvolvedor Web`)
-        },3000)
+        },3500)
         setInterval(()=>{
             setComplement(`Frontend / Backend`)
-        },3000)
+        },4000)
         setInterval(()=>{
             setRenderContato(true)
-        },3500)
+        },4000)
 
     },[])
 
