@@ -149,6 +149,26 @@ const Projetos = () => {
               </div>
             </div>
           </S.SingleProject>
+          <S.SingleProject>
+            <span className="head">New React app</span>
+            <img className="show" src={`${imagesUrl}/newapp.png`} />
+            <div className="div-desc">
+              <span className="desc">
+                Um repositório pre-configurado.
+              </span>
+              <span className="desc">
+                Para ganhar tempo em desenvolvimento esse repositório possui um projeto com providers, routes, axios já instanciado.
+              </span>
+            </div>
+            <div className="buttons">
+              <div className="btn">
+                <img src={`${imagesUrl}/git.png`} width="28" />
+                <a href="https://github.com/tony0305a/new-react-app" target="_blank">
+                  Visite
+                </a>
+              </div>
+            </div>
+          </S.SingleProject>
         </S.Projects>
       </InView>
     </S.Wrapper>
