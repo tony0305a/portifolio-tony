@@ -81,7 +81,7 @@ const Projetos = () => {
                 Javascript Evolution.{" "}
               </span>
               <span className="desc">
-                O projeto é integrado com um backend desenvolvido em Nodejs
+                O projeto é integrado com um backend desenvolvido em Nodejs e o layout foi inspirado no site do submarino/americanas
               </span>
               <span className="desc">
                 Possui algumas funcionalidades padrões de web-commerces, como um
