@@ -11,6 +11,7 @@ h1{
     color: white;
     font-weight:bold;
     font-size:96px;
+    
 
     @media screen and (max-width: 720px) {
       font-size:27px;
@@ -24,7 +25,7 @@ span{
 }
 #contato{
     position:relative;
-    top:350px;
+    top:200px;
     left:-26px;
     width:150px;
     color: white;

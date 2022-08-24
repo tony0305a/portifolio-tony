@@ -36,7 +36,7 @@ const Projetos = () => {
         <S.Projects>
           <S.SingleProject>
             <span className="head">Tonyscout</span>
-            <img className="show" src={`${imagesUrl}/scout.png`} />
+            <img className="show" height="265" src={`${imagesUrl}/scout.png`}  />
             <div className="div-desc">
               <span className="desc">
                 Projeto desenvolvido utilizando ReactJs e a API da Riot Games.{" "}
@@ -74,7 +74,7 @@ const Projetos = () => {
           </S.SingleProject>
           <S.SingleProject>
             <span className="head">React Shop</span>
-            <img className="show" src={`${imagesUrl}/shop.png`} />
+            <img className="show" height="265" src={`${imagesUrl}/shop.png`} />
             <div className="div-desc">
               <span className="desc">
                 Um projeto realizado para conclusão do bootcamp Impulso
@@ -119,7 +119,7 @@ const Projetos = () => {
           </S.SingleProject>
           <S.SingleProject>
             <span className="head">Multiplayer game</span>
-            <img className="show" src={`${imagesUrl}/game.png`} />
+            <img className="show" height="265" src={`${imagesUrl}/game.png`} />
             <div className="div-desc">
               <span className="desc">
                 Um game simples desenvolvido em Javascript utilizando Firebase
@@ -151,7 +151,7 @@ const Projetos = () => {
           </S.SingleProject>
           <S.SingleProject>
             <span className="head">New React app</span>
-            <img className="show" src={`${imagesUrl}/newapp.png`} />
+            <img className="show" height="265" src={`${imagesUrl}/newapp.png`} />
             <div className="div-desc">
               <span className="desc">
                 Um repositório pre-configurado.
