@@ -170,7 +170,7 @@ const Projetos = () => {
             </div>
           </S.SingleProject>
           <S.SingleProject>
-            <span className="head">New React app</span>
+            <span className="head">Layout Olx Homepage</span>
             <img className="show" height="265" src={`${imagesUrl}/newapp.png`} />
             <div className="div-desc">
               <span className="desc">
