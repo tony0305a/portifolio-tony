@@ -171,7 +171,7 @@ const Projetos = () => {
           </S.SingleProject>
           <S.SingleProject>
             <span className="head">Layout Olx Homepage</span>
-            <img className="show" height="265" src={`${imagesUrl}/newapp.png`} />
+            <img className="show" height="265" src={`${imagesUrl}/olx.png`} />
             <div className="div-desc">
               <span className="desc">
                 Uma copia do layout da pagina inicial da olx.
@@ -185,7 +185,7 @@ const Projetos = () => {
             </div>
             <div className="buttons">
               <div className="btn">
-                <img src={`${imagesUrl}/olx.png`} width="28" />
+                <img src={`${imagesUrl}/git.png`} width="28" />
                 <a href="https://github.com/tony0305a/olxhomepagelayout" target="_blank">
                   Visite
                 </a>
