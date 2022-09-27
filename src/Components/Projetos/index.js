@@ -184,6 +184,15 @@ const Projetos = () => {
               </span>
             </div>
             <div className="buttons">
+            <div className="btn">
+                <img src={`${imagesUrl}/web.png`} width="28" />
+                <a
+                  href="https://olxhomepagelayout-in8r.vercel.app"
+                  target="_blank"
+                >
+                  Visite
+                </a>
+              </div>
               <div className="btn">
                 <img src={`${imagesUrl}/git.png`} width="28" />
                 <a href="https://github.com/tony0305a/olxhomepagelayout" target="_blank">
