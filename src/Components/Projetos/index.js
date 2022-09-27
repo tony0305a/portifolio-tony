@@ -169,6 +169,29 @@ const Projetos = () => {
               </div>
             </div>
           </S.SingleProject>
+          <S.SingleProject>
+            <span className="head">New React app</span>
+            <img className="show" height="265" src={`${imagesUrl}/newapp.png`} />
+            <div className="div-desc">
+              <span className="desc">
+                Uma copia do layout da pagina inicial da olx.
+              </span>
+              <span className="desc">
+                Projeto desenvolvido em React utilizando a biblioteca React Components. 
+              </span>
+              <span className="desc">
+                A pagina,também, possui o layout do login e é responsiva à aparelhos moveis. 
+              </span>
+            </div>
+            <div className="buttons">
+              <div className="btn">
+                <img src={`${imagesUrl}/olx.png`} width="28" />
+                <a href="https://github.com/tony0305a/olxhomepagelayout" target="_blank">
+                  Visite
+                </a>
+              </div>
+            </div>
+          </S.SingleProject>
         </S.Projects>
       </InView>
     </S.Wrapper>
