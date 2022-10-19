@@ -201,6 +201,38 @@ const Projetos = () => {
               </div>
             </div>
           </S.SingleProject>
+          <S.SingleProject>
+            <span className="head">Ignite Lab Design system</span>
+            <img className="show" height="265" src={`${imagesUrl}/ignite-lab.png`} />
+            <div className="div-desc">
+              <span className="desc">
+                Uma tela de login desenvolvida durante o Ignite Lab da Rocketseat.
+              </span>
+              <span className="desc">
+                A interface foi idealizada no Figma e posteriormente componentizada e montada em ReactJs,
+              </span>
+              <span className="desc">
+                utilizando TailwindCss em um projeto Vitejs com componentes não estilziados do Radix-ui
+              </span>
+            </div>
+            <div className="buttons">
+            <div className="btn">
+                <img src={`${imagesUrl}/web.png`} width="28" />
+                <a
+                  href="https://ignite-lab-desing-system.vercel.app"
+                  target="_blank"
+                >
+                  Visite
+                </a>
+              </div>
+              <div className="btn">
+                <img src={`${imagesUrl}/git.png`} width="28" />
+                <a href="https://github.com/tony0305a/ignite-lab-desing-system" target="_blank">
+                  Visite
+                </a>
+              </div>
+            </div>
+          </S.SingleProject>
         </S.Projects>
       </InView>
     </S.Wrapper>
