@@ -13,7 +13,7 @@ const Sidebar = () => {
         <Nav/>
 
         <S.Medias>
-          <img src={`${imagesUrl}/git.png`} width="28"  />
+          <a href='https://github.com/tony0305a' ><img src={`${imagesUrl}/git.png`} width="28"/></a>
           <img src={`${imagesUrl}/link.png`} width="28"  />
         </S.Medias>
     </S.Wrapper>
