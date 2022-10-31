@@ -14,7 +14,7 @@ const Sidebar = () => {
 
         <S.Medias>
           <a href='https://github.com/tony0305a' ><img src={`${imagesUrl}/git.png`} width="28"/></a>
-          <img src={`${imagesUrl}/link.png`} width="28"  />
+         <a href='https://www.linkedin.com/in/luiz-antônio-lisboa-b17286220/'><img src={`${imagesUrl}/link.png`} width="28"  /></a> 
         </S.Medias>
     </S.Wrapper>
   )
